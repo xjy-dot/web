@@ -6,7 +6,7 @@ import shap
 import matplotlib.pyplot as plt
 
 # Load the model
-model = joblib.load('best_xgboost_model.pkl')
+model = joblib.load('best_xgboost_model.joblib')
 
 # Define feature options
 diabetes_options = {
